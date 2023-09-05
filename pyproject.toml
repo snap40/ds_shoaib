@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "reporting-duty"
+version = "0.1.0"
+description = ""
+authors = ["Shoaib Khan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.25.1"
+deep-impact-reporting = "^0.3.1"
+adsquery = "^0.1.6"
+openpyxl = "^3.1.2"
+
+
+[[tool.poetry.source]]
+name = "nexus"
+url = "https://nexus.snap40.com/repository/pypi-all/simple"
+priority = "default"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
